@@ -3,7 +3,7 @@
 // 2 Вивести id,name всіх user в index.html. Окремий блок для кожного user.
 // 3 Додати кожному блоку кнопку/посилання , при кліку на яку відбувається перехід  на сторінку user-details.html, котра має детальну інфорацію про об'єкт на який клікнули
 //
-fetch('http://jsonplaceholder.typicode.com/users')
+fetch('https://jsonplaceholder.typicode.com/users')
     .then(responce => responce.json())
     .then(users => {
         console.log(users)
