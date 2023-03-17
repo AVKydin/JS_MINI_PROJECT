@@ -1,0 +1,36 @@
+.postDiv{
+    margin: 5px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: 1px dashed black;
+    border-radius: 15px;
+    background-color: cornflowerblue;
+}
+
+.comentsBlock{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.comentBlock{
+    width: 21%;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: lightskyblue;
+    padding: 5px;
+    box-sizing: border-box;
+    word-wrap: break-word;
+}
+
+button{
+    width: 100%;
+    background-color: goldenrod;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
